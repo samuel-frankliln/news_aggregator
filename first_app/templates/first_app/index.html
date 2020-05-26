@@ -1,0 +1,48 @@
+{% extends "first_app/base.html"  %}
+
+
+{% block content %}
+<!-- <div class="jumbotron cont">
+  <div class="row">
+<div class="col-sm-6 img" id="img1">   <a href="/first_app/international"> <img src="https://media3.giphy.com/media/Ur1ePKk5h82J2nKUmm/source.gif" class="image" alt="">
+  </a>
+  <div class="middle">
+<div class="text">INTERNATIONAL</div>
+  </div>
+</div>
+<div class="col-sm-6 img " id="img2"> <a href="/first_app/national"><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/India_Map_Animation_Created_by_samnad.s_Kudappanamoodu.gif"  class="image" alt="">
+  </a>
+  <div class="middle">
+    <div class="text">NATIONAL</div>
+  </div>
+</div>
+</div>
+</div> -->
+
+
+<div class="container img">
+   <a href="first_app/international">
+<img src="https://i.pinimg.com/originals/2c/f3/0f/2cf30ffdbfa3db621d303e9575ff9e47.gif" alt="Le Tricolore Smartwatch"  class="image" id="int">
+  <div class="overlay">
+    <p>INTERNATIONAL </br> NEWS</p>
+  </div>
+</a>
+</div>
+<div class="container img"><a href="first_app/national">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/India_Map_Animation_Created_by_samnad.s_Kudappanamoodu.gif" alt="Le Tricolore Smartwatch"  class="image"  >
+
+  <div class="overlay">
+
+  <p>NATIONAL </br> NEWS</p>
+
+  </div>
+</a>
+</div>
+
+
+
+
+<div class="graph">
+<iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="600px" ></iframe>
+</div>
+{% endblock %}

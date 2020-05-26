@@ -1,0 +1,17 @@
+{% extends "first_app/base.html"  %}
+
+
+
+{% block content %}
+<h3 class="text-centre"> BBC NEWS </h3>
+<ol>
+{% for n in bbc_news %}
+
+  <li> <h5>  {{n}} </h5></li>
+
+<hr>
+{% endfor %}
+</ol>
+
+
+{% endblock %}

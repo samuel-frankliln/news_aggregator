@@ -1,0 +1,23 @@
+{% extends "first_app/base.html"  %}
+
+
+
+{% block content %}
+<div class="wow">
+
+
+<h3 class="text-centre"> TOI NEWS </h3>
+<ol>
+{% for n in toi_news %}
+
+
+  <li> <h5>  {{n}} </h5></li>
+
+<hr>
+{% endfor %}
+</ol>
+
+</div>
+
+
+{% endblock %}
