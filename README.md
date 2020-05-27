@@ -1,4 +1,6 @@
 # COVID DELTA
+![jayanth](https://user-images.githubusercontent.com/44821150/83053210-07724f00-a06e-11ea-9c1a-ce44f55b0037.JPG)
+
 
 
 ![Capture](https://user-images.githubusercontent.com/44821150/82948738-fc60e580-9fbf-11ea-94e8-7bacb7360d61.JPG)
